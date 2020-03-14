@@ -1,0 +1,491 @@
+@media screen and (min-width: 1201px) {
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    .device,
+    .baner,
+    .advantages{
+        margin: 0;
+    }
+
+    // header
+    .header{
+        height: 9.8rem;
+     }
+    .header_logo{
+        width: 170px;
+        padding: 0;
+        position: absolute;
+        top: 10px;
+        left: 4.7%;
+    }
+    .header_lang{
+        margin-left: 290px;
+    }
+    .header_menu{
+        margin-right: 0;
+        .header_menu_item:nth-child(1){
+            a{
+                margin-right: 0;
+            }
+        }
+    }
+    .header_line{
+        width: 100%;
+    }
+
+    // device
+    .device_slider_action{
+        a{
+            top: 20rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    // baner
+    .baner{
+        margin-top: 4vw;
+    }
+
+    // advantages
+    .advantages{
+        margin-top: 3vw;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .device,
+    .baner,
+    .advantages{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+
+    // header
+    .header{
+        height: 10rem;
+        width: 100%;
+        position: relative;
+     }
+    .header_logo{
+        width: 7rem;
+        padding: 0;
+        padding-top: 0.5rem;
+        position: unset;
+    }
+    .header_personalize{
+        margin-top: 1.3rem;
+        padding: 0.13rem;
+    }
+    .header_lang{
+        margin-top: 1.3rem;
+    }
+    .header_menu-butn{
+        display: none;
+        font-family: 'AvenirNextCyr';
+        font-size: 1.5rem;
+        line-height: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    .header_menu{
+        float: none;
+        margin-top: 0.5rem;
+        margin-right: 0;
+        .header_menu_item:nth-child(1){
+            a{
+                margin-right: 0;
+            }
+        }
+    }
+    .header_line{
+        display: none;
+    }
+    .header_shop{
+        margin-top: 1.4rem;
+
+    }
+    .header_discount{
+        display: none;
+    }
+    .header_tlf{
+        height: 1rem;
+        margin: 0;
+        position: absolute;
+        top: 8.8rem;
+        right: 2rem;
+        font-size: 0.5rem; 
+        .header_tlf_namber{
+            display: inline-block;
+            font-size: 0.6rem; 
+        }
+    }
+    .header_search{
+        margin-right: 2.4rem;
+    }
+
+    // device
+    .device_slider{
+        width: 55%;
+        height: 25.25rem;
+        position: relative;
+        margin-top: 5rem;
+    }
+
+    .device_slider_action{
+        img{
+            height: 35vw;
+        }
+        a{
+            width: 30%;
+            height: 5vw;
+            top: 24vw;
+            font-size: 1.6vw;
+            line-height: 5vw;
+        }
+        p{
+            font-size: 2.5vw;
+            position: absolute;
+            top: 2.2rem;
+        }
+    }
+    .device_slider_nav{
+        width: 60%;
+        position: absolute;
+        top: 37vw;
+        a{
+            width: 2rem;
+            height: 2rem;
+            border-radius: 2rem;
+            border: 1px solid rgb(0, 67, 164);
+        }
+    }
+
+    // baner
+    .baner{
+        margin-top: 4vw;
+    }
+
+    // advantages
+    .advantages{
+        margin-top: 3vw;
+    }
+    .advantages_foto{
+        width: 25%;
+        img{
+            height: 12.4vw;    
+        }
+    }
+    .advantages_comment{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    .device,
+    .baner,
+    .advantages{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+
+    .no-activ{
+        display: none;
+    }
+
+    // header
+    .header{
+        height: 10rem;
+        width: 100%;
+        position: relative;
+     }
+    .header_logo{
+        width: 7rem;
+        padding: 0;
+        padding-top: 0.5rem;
+        position: unset;
+    }
+    .header_personalize{
+        margin-top: 1.3rem;
+        padding: 0.13rem;
+    }
+    .header_lang{
+        margin-top: 1.3rem;
+    }
+    .header_menu-butn{
+        display: block;
+        position: relative;
+        top: 43px;
+        font-family: 'AvenirNextCyr';
+        font-size: 1.2rem;
+        line-height: 1rem;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .header_menu{
+        float: left;
+        margin-top: 0;
+        margin-right: 0;
+        background-color: rgb(0, 67, 164);
+        position: absolute;
+        top: 120px;
+        left: 20px;
+        z-index: 50;
+        .header_menu_item{
+            float: none;
+            position: relative;
+            padding: 10px 5px;
+        }
+    }
+    .header_line{
+        display: none;
+    }
+    .header_discount{
+        display: none;
+    }
+    .header_tlf{
+        height: 1rem;
+        margin: 0;
+        position: absolute;
+        top: 8.8rem;
+        right: 2rem;
+        font-size: 0.5rem; 
+        .header_tlf_namber{
+            display: inline-block;
+            font-size: 0.6rem; 
+        }
+    }
+    .header_search{
+        margin-right: 2rem;
+    }
+
+    // device
+    .device_menu-butn{
+        display: block;
+        cursor: pointer;
+    }
+    .no-activ{
+        display: none;
+    }
+    .device_menu{
+        float: none;
+        height: 32.1rem;
+        padding-top: 2rem;
+    }
+    .device_slider{
+        display: none;
+    }
+
+    // baner
+    .baner{
+        margin-top: 4vw;
+    }
+
+    // advantages
+    .advantages{
+        margin-top: 3vw;
+    }
+    .advantages_foto{
+        width: 25%;
+        img{
+            height: 12.4vw;    
+        }
+    }
+    .advantages_comment{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    html{
+        font-size: 24px;
+    }
+    .device,
+    .baner,
+    .advantages{
+        margin: 0;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+
+    .no-activ{
+        display: none;
+    }
+
+    // header
+    .header{
+        width: 100%;
+        position: relative;
+        height: unset;
+     }
+    .header_logo{
+        display: none;
+    }
+    .header_personalize{
+        float: left;
+        margin-top: 1rem;
+        padding: 0;
+        a{
+            padding: 0 1rem; 
+        }
+    }
+    .header_lang{
+        float: left;
+        width: 11.5rem;
+        margin-top: 1.5rem;
+        a{
+            padding: .2rem 2.07rem;
+        }
+    }
+    .header_menu-butn{
+        display: block;
+        float: left;
+        width: 270px;
+        margin-top: 1.5rem;
+        font-family: 'AvenirNextCyr';
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1rem;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .header_menu{
+        float: left;
+        margin-top: 20px;
+        margin-right: 0;
+        background-color: rgb(0, 67, 164);
+        .header_menu_item{
+            float: none;
+            margin-bottom: 15px;
+            a{
+                margin-right: 0;
+            }
+        }
+    }
+    .header_line{
+        display: none;
+    }
+    .header_shop{
+        float: left;
+        margin-top: 2rem;
+        width: 320px;
+    }
+    .header_discount{
+        display: none;
+    }
+    .header_tlf{
+        float: none;
+        height: 1rem;
+        position: absolute;
+        bottom: 0;
+        left: 1.4rem;
+        font-size: 0.5rem; 
+        margin-right: 0;
+        .header_tlf_namber{
+            display: inline-block;
+            font-size: 0.6rem; 
+        }
+    }
+    .header_search{
+        float: left;
+        margin-right: 2.4rem;
+        width: 285px;
+        margin-right: 0;
+        input{
+            width: 285px;
+        }
+        button{
+            left: 8.8rem;
+        }
+    }
+
+    // device
+    .device_menu-butn{
+        display: block;
+        width: 13.5rem;
+        cursor: pointer;
+        &::before, &::after{
+            width: 10.8rem;
+        }
+    }
+    .device_menu{
+        float: none;
+        width: 13.5rem;
+        height: 32.1rem;
+        padding-top: 2rem;
+        .device_menu_item{
+            padding-top: .4rem;
+            font-size: 0.7rem;
+        }
+    }
+    .device_slider{
+        display: none;
+    }
+
+    // baner
+    .baner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .baner_block{
+        width: 45%;
+        height: 65vw;
+        margin-top: 1rem;
+        &:hover{
+            .baner_block_comment{
+                width: 72%;
+                margin: 0 14%;
+            }
+        }
+    }
+    .baner_block_comment{
+        font-size: 3vw;
+        top: 55vw;
+        line-height: 4vw;
+    }
+
+    // advantages
+    .advantages{
+        margin-top: 3vw;
+    }
+    .advantages_foto{
+        display: none;
+    }
+    .advantages_comment{
+        width: 100%;
+    }
+    .advantages_comment_item{
+        h2, h3{
+            padding-left: 0;
+        }
+        .advantages_comment_item_icon{
+            display: none;
+        }
+    }
+}
+
